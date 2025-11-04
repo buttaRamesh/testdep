@@ -6,7 +6,7 @@ export default function HelloGuest() {
   useEffect(() => {
     // 👇 Replace this with your actual backend IP or domain
     // const backendUrl = "http://127.0.0.1:8000/hello/";
-    const backendUrl = "http://localhost:8000/hello/";
+    const backendUrl = "http://103.235.106.71:8000/hello/";
 
     fetch(backendUrl)
       .then((res) => {
